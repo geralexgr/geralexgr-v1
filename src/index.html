@@ -1,53 +1,471 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Gerasimos Alexiou | Personal Site</title>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="geralexgr,gerasimos,alexiou,jerrak0s,jerasim0s" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.poptrox.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body> 
-<p><!-- Header -->
-			</p><section id="header"><header><h1>Gerasimos Alexiou</h1> 
-    <p>GeralexGR</p> </header><footer><a class="button style2 scrolly scrolly-centered" href="#banner">Proceed</a> </footer></section>		
-		<!-- Banner -->
-			<section id="banner"><header><h2>About me</h2> </header>
-  <p>I am Gerasimos Alexiou a Computer Engineering graduate from University of Patras. Check my <a target="_blank" href="http://blog.geralexgr.com">blog</a> for tutorials and how to's.</p> <footer><a class="button style2 scrolly" href="#first">Show me more</a>  </footer></section>		
-		
-		<!-- Portfolio -->
-			<article id="first" class="container box style2"><header><h2>Developer links</h2> 
-    <p><a target="_blank" href="https://play.google.com/store/apps/dev?id=8667630508164591390">Android</a><br /><a target="_blank" href="https://www.microsoft.com/en-us/store/search/apps?q=geralexgr">Windows</a><br /> <a target="_blank" href="https://itunes.apple.com/us/developer/gerasimos-alexiou/id1292240364">App Store</a></p> </header></article>	
-		
-		
-		<!-- Contact -->
-			<article class="container box style3"><header><h2>Contact me</h2> <a href="mailto:webmaster@geralexgr.com">webmaster [and the domain is] geralexgr [.] com</a> </header></article><section id="footer">
-  <ul class="icons">
-    <li><a target="_blank" class="icon fa-twitter" href="http://twitter.com/Jerrak0s"><span class="label">Twitter</span></a></li> 
-    <li><a target="_blank" class="icon fa-github" href="https://github.com/jerrak0s/"><span class="label">Github</span></a></li> 
-    <li><a target="_blank" class="icon fa-stack-overflow" href="https://stackoverflow.com/users/1509124/geralexgr"><span class="label">StackOverflow</span></a></li><!-- 				
-    
-    <li><a class="icon fa-pinterest" href="#"><span class="label">Pinterest</span></a></li> -->				<!-- 
-    
-    <li><a class="icon fa-dribbble" href="#"><span class="label">Dribbble</span></a></li> -->
-				
-    
-    <li><a target="_blank" class="icon fa-linkedin" href="http://gr.linkedin.com/in/jerrak0s"><span class="label">LinkedIn</span></a></li> 
-  </ul>
-  <div class="copyright"> 
-    <ul class="menu">
-      <li><br /></li> 
-    </ul>
-  </div> </section>
-<p>&nbsp;</p> </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gerasimos Alexiou | Personal Site</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">GeralexGR</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/zombie.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Gerasimos Alexiou</span>
+                        <hr class="star-light">
+                        <span class="skills">Software Engineer</span> <br/>
+                        <p>.NET - Xamarin - Python - Web</p>
+                        <span class="skills">IT Engineer</span>
+                        <p>VMware - Monitoring - Scripting</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/eventizr.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/mokit.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/bot.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/interview.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                 <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/sociaride.png" class="img-responsive" alt="sociaride">
+                    </a>
+                </div>
+                <!-- <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>I am a Computer Engineering graduate from University of Patras. Visit my <a class="" style="color: #ffffff" target="_blank" href="http://blog.geralexgr.com">blog</a> for tutorials and how to's. Contact me for projects and partnerships. </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Check out also my uploaded projects: </br> 
+                            <a target="_blank" style="color: #ffffff" href="https://play.google.com/store/apps/dev?id=8667630508164591390">• Android</a> </br> 
+                            <a style="color: #ffffff" href="">• Windows</a> </br>
+                            <a target="_blank" style="color: #ffffff" href="https://itunes.apple.com/us/developer/gerasimos-alexiou/id1292240364">• App Store</a> </br> 
+                    </p>
+                </div>               
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-lg-12 text-center">
+                            <p>
+                              <a href="mailto:webmaster@geralexgr.com">webmaster [and the domain is] geralexgr [.] com</a>
+                            </p>
+                    </div>                       
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Athens, Greece</p>
+                     </div> -->
+                    <div class="footer-col col-md-12 text-center">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a style="font-size:2em;color: #ffffff" href="http://twitter.com/geralexgr" target="_blank" class=""><i class="fa fa-fw fa-twitter"></i></a>
+                                </li>
+                            <li>
+                                <a style="font-size:2em;color: #ffffff" href="https://github.com/geralexgr/" target="_blank" class=""><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a style="font-size:2em;color: #ffffff" href="https://stackoverflow.com/users/1509124/geralexgr" target="_blank" class=""><i class="fa fa-fw fa-stack-overflow"></i></a>
+                            </li>
+                            <li>
+                                <a style="font-size:2em;color: #ffffff" href="https://linkedin.com/in/geralexgr" target="_blank" class=""><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; GeralexGR
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Eventizr</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/eventizr.png" class="img-responsive img-centered" alt="">
+							<p> <a href="https://blog.geralexgr.com/eventizr" target="_blank">Eventizr</a> is a cross platform mobile app that interacts with Facebook in order to remind you of upcoming events near your location. App is created with Xamarin and uses fb-graph-api in order to fetch events nearby. (discontinued) </p>
+                            <ul class="list-inline item-details">
+                               
+                                <li>Date:
+                                    <strong style="color: #18BC9C">October 2017</strong>
+                                </li>
+                                <li>Type:
+                                    <strong style="color: #18BC9C">Xamarin</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Mokit</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/mokit.png" class="img-responsive img-centered" alt="">
+                            <p>Mokit is an award winning Microsoft app that enables you to quickly wrap app screenshots in device artwork and create gorgeous images for your Store page. </p>
+                            <ul class="list-inline item-details">
+                                    <li>Date:
+                                            <strong style="color: #18BC9C">December 2015</strong>
+                                        </li>
+                                        <li>Type:
+                                            <strong style="color: #18BC9C">UWP</a></strong>
+                                        </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Gminderbot</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/bot.png" class="img-responsive img-centered" alt="">
+							<p><a href="http://gminderbot.azurewebsites.net/" target="_blank">Gminderbot</a> is a bot that can save and remind messages to the user. It is built with microsoft bot framework and it is available for facebook, skype, telegram, ms teams, etc. </p>
+                            <ul class="list-inline item-details">
+                                    <li>Date:
+                                        <strong style="color: #18BC9C">April 2017</strong>
+                                        </li>
+                                        <li>Type:
+                                            <strong style="color: #18BC9C">ASP.NET</strong>
+                                    </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>C# Interview Questions</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/interview.png" class="img-responsive img-centered" alt="">
+                            <p>C# Interview Questions <a href="https://github.com/geralexgr/CsharpInterviewQuestions" target="_blank">repository</a> is a .NET Core application that includes code samples for some of the most frequently asked algorithmic interview questions.</p>
+                            <ul class="list-inline item-details">
+                                    <li>Date:
+                                            <strong style="color: #18BC9C">January 2018</strong>
+                                            </li>
+                                            <li>Type:
+                                            <strong style="color: #18BC9C">.NET</strong>
+                                     </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Sociaride</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/sociaride.png" class="img-responsive img-centered" alt="sociaride">
+							<p><a href="https://carpool.geralexgr.com/" target="_blank">Sociaride</a> is a cross platform mobile application built with Xamarin.Forms and web technologies.
+It is the easiest and quicker carpooling (ride sharing) platform that you will find available for Greece.</p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>April 2019</strong>
+                                </li>
+                                <li>Type:
+                                    <strong>Mobile</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+</body>
+
 </html>
